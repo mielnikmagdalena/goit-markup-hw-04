@@ -29,6 +29,44 @@ figure {
 .section-content {
     background-color: var(--verydarkgrey);
 }
+.envelope-icon {
+    margin-right: 10px;
+    stroke: #757575;
+}
+.envelope-icon:hover {
+    stroke: #2196f3;
+}
+.smartphone-icon {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 30px;
+    margin-right: 10px;
+    stroke: #757575;
+}
+.antenna-icon {
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 4px;
+    gap: 30px;
+}
+.clock-icon {
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 4px;
+    gap: 30px;
+}
+.computer-icon {
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 4px;
+    gap: 30px;
+}
+.astronaut-icon {
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 4px;
+    gap: 30px;
+}
 .heading {
     display: flex;
     flex-direction: column;
