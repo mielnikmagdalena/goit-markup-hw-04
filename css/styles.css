@@ -6,6 +6,7 @@
     --lightgrey: #757575;
     --verydarkgrey: #2f303a;
     --clearwhite: #ffffff99;
+    --verylightgrey: #afb1b8;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -31,41 +32,107 @@ figure {
 }
 .envelope-icon {
     margin-right: 10px;
-    stroke: #757575;
+    fill: var(--lightgrey);
 }
-.envelope-icon:hover {
-    stroke: #2196f3;
+.envelope-icon:hover,
+.envelope-icon:focus {
+    fill: var(--dodgerblue);
 }
+
 .smartphone-icon {
     margin-top: 32px;
     margin-bottom: 32px;
     margin-left: 30px;
     margin-right: 10px;
-    stroke: #757575;
+    fill: var(--lightgrey);
 }
-.antenna-icon {
-    margin-left: 0px;
-    margin-right: 30px;
-    border-radius: 4px;
-    gap: 30px;
+.smartphone-icon:hover,
+.smartphone-icon:focus {
+    fill: var(--dodgerblue);
 }
-.clock-icon {
-    margin-left: 0px;
-    margin-right: 30px;
-    border-radius: 4px;
-    gap: 30px;
+.mail {
+    display: flex;
+    gap: 10px;
 }
-.computer-icon {
-    margin-left: 0px;
-    margin-right: 30px;
-    border-radius: 4px;
-    gap: 30px;
+.tel {
+    display: flex;
+    gap: 10px;
 }
-.astronaut-icon {
-    margin-left: 0px;
-    margin-right: 30px;
-    border-radius: 4px;
+.our-atributes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+}
+.logos {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    fill: #e5e5e5;
+    stroke: var(--verylightgrey);
+    border-radius: 4px;
+}
+.logos:hover,
+.logos:focus {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--dodgerblue);
+    fill: var(--dodgerblue);
+    stroke: var(--dodgerblue);
+}
+.clients {
+    background-color: var(--white);
+}
+.container-clients {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 18px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.instagram-icon {
+    margin-right: 10px;
+    fill: var(--verylightgrey);
+}
+.instagram-icon:hover,
+.instagram-icon:focus {
+    fill: var(--dodgerblue);
+}
+.twitter-icon {
+    margin-right: 10px;
+    fill: var(--verylightgrey);
+}
+.twitter-icon:hover,
+.twitter-icon:focus {
+    fill: var(--dodgerblue);
+}
+.facebook-icon {
+    margin-right: 10px;
+    fill: var(--verylightgrey);
+}
+.facebook-icon:hover,
+.facebook-icon:focus {
+    fill: var(--dodgerblue);
+}
+.linkedin-icon {
+    margin-right: 10px;
+    fill: var(--verylightgrey);
+}
+.linkedin-icon:hover,
+.linkedin-icon:focus {
+    fill: var(--dodgerblue);
 }
 .heading {
     display: flex;
@@ -148,7 +215,7 @@ figure {
 .lorem-list {
     display: flex;
     list-style: none;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 30px;
 }
 .list {
@@ -247,15 +314,6 @@ figure {
     color: var(--white);
     background-color: var(--dodgerblue);
 }
-
-.second-heading {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-align: center;
-    padding-bottom: 50px;
-}
 .section-list {
     padding-top: 94px;
     padding-bottom: 0px;
@@ -263,6 +321,25 @@ figure {
 .section-portfolio {
     padding-top: 50px;
     padding-bottom: 94px;
+}
+.second-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.third-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 .images {
     display: flex;
@@ -274,13 +351,13 @@ figure {
 .section-cards {
     background-color: #f5f4fa;
 }
-
 .cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
     gap: 30px;
+    padding-bottom: 94px;
 }
 .cards li {
     background: #ffffff;
@@ -298,6 +375,7 @@ figure {
     color: var(--dodgerblue);
     text-decoration: none;
 }
+
 .footer {
     display: flex;
     flex-direction: column;
