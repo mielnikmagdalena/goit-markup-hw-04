@@ -65,13 +65,13 @@ figure {
     gap: 30px;
     padding-bottom: 30px;
     border-radius: 4px;
+    background-color: #f5f4fa;
 }
 .logos {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
     fill: #e5e5e5;
-    stroke: var(--verylightgrey);
     border-radius: 4px;
 }
 .logos:hover,
@@ -90,6 +90,7 @@ figure {
     gap: 30px;
     align-items: center;
     justify-content: center;
+    list-style: none;
 }
 
 .social-media {
