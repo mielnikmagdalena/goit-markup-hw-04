@@ -66,18 +66,17 @@ figure {
     padding-bottom: 30px;
     border-radius: 4px;
     background-color: #f5f4fa;
+    padding: 30px 0px;
+    margin-bottom: 30px;
 }
 .logos {
-    width: 170px;
-    height: 92px;
     border: 1px solid #afb1b8;
     fill: #e5e5e5;
     border-radius: 4px;
+    padding: 20px 60px;
 }
 .logos:hover,
 .logos:focus {
-    width: 170px;
-    height: 92px;
     border: 1px solid var(--dodgerblue);
     fill: var(--dodgerblue);
     stroke: var(--dodgerblue);
