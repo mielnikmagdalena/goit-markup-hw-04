@@ -136,11 +136,13 @@ figure {
 }
 .instagram {
     margin-right: 10px;
+    border-radius: 50%;
     fill: var(--white);
+    background-color: var(--verylightgrey);
 }
 .instagram:hover,
 .instagram:focus {
-    fill: var(--dodgerblue);
+    background-color: var(--dodgerblue);
 }
 .twitter {
     margin-right: 10px;
@@ -450,7 +452,9 @@ figure {
 }
 .join-us {
     gap: 10px;
+    fill: var(--verylightgrey);
 }
+
 .two-elements {
     display: flex;
     justify-content: flex-start;
