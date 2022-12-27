@@ -70,17 +70,18 @@ figure {
     margin-bottom: 30px;
 }
 .logos {
-    border: 1px solid #afb1b8;
     fill: #e5e5e5;
+}
+.signs {
+    padding: 15px 32px;
+    border: 1px solid #afb1b8;
     border-radius: 4px;
-    padding: 20px 60px;
 }
 .logos:hover,
 .logos:focus {
-    border: 1px solid var(--dodgerblue);
     fill: var(--dodgerblue);
-    stroke: var(--dodgerblue);
 }
+
 .clients {
     background-color: var(--white);
 }
