@@ -137,14 +137,16 @@ figure {
     background-color: var(--verylightgrey);
 }
 .instagram-icon {
-    margin-right: 10px;
-    stroke: var(--verylightgrey);
+    fill: var(--verylightgrey);
 }
 .instagram-icon:hover,
 .instagram-icon:focus {
     width: 44px;
     height: 44px;
-    stroke: var(--white);
+    fill: var(--white);
+    background-color: var(--dodgerblue);
+    border-radius: 50%;
+    background-position: 50% 50%;
 }
 .twitter-icon {
     margin-right: 10px;
