@@ -30,6 +30,24 @@ figure {
 .section-content {
     background-color: var(--verydarkgrey);
 }
+.contacts a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--lightgrey);
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--dodgerblue);
+}
+.mail a:hover svg {
+    fill: var(--dodgerblue);
+}
+.mail a:focus svg {
+    fill: var(--dodgerblue);
+}
 .envelope-icon {
     margin-right: 10px;
     fill: var(--lightgrey);
@@ -38,11 +56,14 @@ figure {
 .envelope-icon:focus {
     fill: var(--dodgerblue);
 }
+.tel a:hover svg {
+    fill: var(--dodgerblue);
+}
+.tel a:hover svg {
+    fill: var(--dodgerblue);
+}
 
 .smartphone-icon {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 30px;
     margin-right: 10px;
     fill: var(--lightgrey);
 }
@@ -77,8 +98,13 @@ figure {
     border: 1px solid #afb1b8;
     border-radius: 4px;
 }
-.logos:hover,
-.logos:focus {
+
+.signs:hover,
+.signs:focus {
+    border-color: var(--dodgerblue);
+}
+.signs:hover svg,
+.signs:focus svg {
     fill: var(--dodgerblue);
 }
 
@@ -112,11 +138,13 @@ figure {
 }
 .instagram-icon {
     margin-right: 10px;
-    fill: var(--verylightgrey);
+    stroke: var(--verylightgrey);
 }
 .instagram-icon:hover,
 .instagram-icon:focus {
-    fill: var(--dodgerblue);
+    width: 44px;
+    height: 44px;
+    stroke: var(--white);
 }
 .twitter-icon {
     margin-right: 10px;
@@ -124,7 +152,7 @@ figure {
 }
 .twitter-icon:hover,
 .twitter-icon:focus {
-    fill: var(--dodgerblue);
+    fill: var(--white);
 }
 .facebook-icon {
     margin-right: 10px;
@@ -132,7 +160,7 @@ figure {
 }
 .facebook-icon:hover,
 .facebook-icon:focus {
-    fill: var(--dodgerblue);
+    fill: var(--white);
 }
 .linkedin-icon {
     margin-right: 10px;
@@ -140,7 +168,7 @@ figure {
 }
 .linkedin-icon:hover,
 .linkedin-icon:focus {
-    fill: var(--dodgerblue);
+    fill: var(--white);
 }
 .instagram {
     margin-right: 10px;
@@ -318,19 +346,6 @@ figure {
 }
 
 .nav-link {
-    color: var(--dodgerblue);
-}
-.contacts a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--lightgrey);
-}
-
-.contacts a:hover,
-.contacts a:focus {
     color: var(--dodgerblue);
 }
 .button-list {
