@@ -71,12 +71,14 @@ figure {
 .smartphone-icon:focus {
     fill: var(--dodgerblue);
 }
-.mail {
+.mail a {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
-.tel {
+.tel a {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 .our-atributes {
@@ -102,6 +104,7 @@ figure {
 .signs:hover,
 .signs:focus {
     border-color: var(--dodgerblue);
+    cursor: pointer;
 }
 .signs:hover svg,
 .signs:focus svg {
@@ -131,45 +134,93 @@ figure {
 }
 .join-us {
     gap: 10px;
+    display: flex;
 }
 .join-us-svg {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: var(--white);
-    background-color: var(--verylightgrey);
+}
+.join-us-svg:hover,
+.join-us-svg:focus {
+    background-color: var(--dodgerblue);
+    cursor: pointer;
 }
 .instagram-icon {
     fill: var(--verylightgrey);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .instagram-icon:hover,
 .instagram-icon:focus {
-    width: 44px;
-    height: 44px;
-    fill: var(--white);
     background-color: var(--dodgerblue);
-    border-radius: 50%;
-    background-position: 50% 50%;
+    cursor: pointer;
 }
+.instagram-icon:hover svg {
+    fill: var(--white);
+}
+
 .twitter-icon {
     margin-right: 10px;
     fill: var(--verylightgrey);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .twitter-icon:hover,
 .twitter-icon:focus {
+    background-color: var(--dodgerblue);
+    cursor: pointer;
+}
+.twitter-icon:hover svg {
     fill: var(--white);
 }
 .facebook-icon {
     margin-right: 10px;
     fill: var(--verylightgrey);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .facebook-icon:hover,
 .facebook-icon:focus {
+    background-color: var(--dodgerblue);
+    cursor: pointer;
+}
+.facebook-icon:hover svg {
     fill: var(--white);
 }
 .linkedin-icon {
     margin-right: 10px;
     fill: var(--verylightgrey);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .linkedin-icon:hover,
 .linkedin-icon:focus {
+    background-color: var(--dodgerblue);
+    cursor: pointer;
+}
+.linkedin-icon:hover svg {
     fill: var(--white);
 }
 .instagram {
