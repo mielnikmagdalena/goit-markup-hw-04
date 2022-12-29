@@ -132,6 +132,15 @@ figure {
     margin-left: 32px;
     margin-right: 32px;
 }
+.join {
+    font-style: normal;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    padding-bottom: 20px;
+}
 .join-us {
     gap: 10px;
     display: flex;
@@ -518,16 +527,6 @@ figure {
     padding-top: 20px;
     padding-bottom: 9px;
 }
-.join {
-    font-style: normal;
-    font-style: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--white);
-    padding-bottom: 20px;
-}
-
 .two-elements {
     display: flex;
     justify-content: flex-start;
@@ -622,6 +621,12 @@ figure {
 
 .image {
     display: block;
+}
+.office {
+    max-width: 1600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .job-list h3 {
