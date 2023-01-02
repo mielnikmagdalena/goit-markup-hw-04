@@ -276,6 +276,16 @@ figure {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+.thumb {
+    width: 1600px;
+    height: 600px;
+}
+.thumb > img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .first-heading {
     font-weight: 900;
     font-size: 44px;
@@ -623,10 +633,10 @@ figure {
     display: block;
 }
 .office {
-    max-width: 1600px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 .job-list h3 {
