@@ -342,7 +342,7 @@ figure {
 }
 .page-header > .container > nav > .nav-list {
     display: flex;
-    gap: 46px;
+    gap: 30px;
 }
 .page-header > .container > nav > a {
     font-family: 'Raleway';
