@@ -29,6 +29,8 @@ figure {
     padding: 0 15px;
 }
 .section-content {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: var(--verydarkgrey);
 }
 .contacts a {
@@ -270,7 +272,6 @@ figure {
 }
 
 .heading {
-    max-width: 1600px;
     display: flex;
     flex-direction: column;
     align-items: center;
