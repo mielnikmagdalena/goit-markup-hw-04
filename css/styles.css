@@ -60,7 +60,6 @@ figure {
     fill: var(--dodgerblue);
 }
 .envelope-icon {
-    margin-right: 10px;
     fill: var(--lightgrey);
 }
 .envelope-icon:hover,
@@ -75,7 +74,6 @@ figure {
 }
 
 .smartphone-icon {
-    margin-right: 10px;
     fill: var(--lightgrey);
 }
 .smartphone-icon:hover,
@@ -639,12 +637,6 @@ figure {
 
 .image {
     display: block;
-}
-.office {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
 }
 
 .job-list h3 {
